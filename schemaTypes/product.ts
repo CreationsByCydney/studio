@@ -36,6 +36,16 @@ export default defineType({
         validation: (Rule) => Rule.required()
     }),
     defineField({
+      name: 'price',
+      title: 'Price',
+      type: 'number'
+    }),
+    defineField({
+      name: 'available',
+      title: 'Available',
+      type: 'boolean'
+    }),
+    defineField({
       name: 'vibes',
       title: 'Vibes',
       type: 'array',
